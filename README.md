@@ -54,16 +54,13 @@ navigation_system/
 figures/                    generated plots (scenarios, planner comparison,
                             weight study, distance field, DWA candidate fan,
                             preset paths, trade-off scatter, architecture)
-REPORT.md / SLIDES.md / PRESENTATION_SCRIPT.md / CHEATSHEET.md
+
 build_docs.py               turns the .md documents into .html
 ```
 
-## Documentation
 
-Run `python build_docs.py` to produce printable HTML versions of the report,
-slides, script, and cheat sheet (open in a browser → Print → Save as PDF).
 
-## Note on data
+
 
 This is a planning/optimization project, not a machine-learning one, so there is
 no CSV dataset. The input is the environment: a grid map (each cell free or
